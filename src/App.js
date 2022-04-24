@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>SKINDER®</title>
+        <title>SKIN DER®</title>
         <link rel="canonical" href="https://skinder.mx/" />
       </Helmet>
       <div className="App">
