@@ -11,7 +11,7 @@
 
   grid-auto-rows: auto;
   max-width: 1280px;
-padding: 0.4vh;
+  padding: 0.4vh;
   width: fit-content;
   display: grid;
   grid-template-columns: repeat(
@@ -27,10 +27,7 @@ padding: 0.4vh;
   box-sizing: border-box;
 
   .header-el-col {
-    .logo-grid {
-      max-width: 200px;
-      margin: 2rem 0;
-    }
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -43,15 +40,21 @@ padding: 0.4vh;
     letter-spacing: 2px;
     height: 100%;
     position: relative;
-
+    .logo-grid {
+      max-width: 200px;
+      margin: 2rem 0;
+    }
     .img {
       width: 100%;
       height: auto;
       border-radius: 20px;
       margin-bottom: 0.5rem;
-      padding:3rem;
+      padding: 3rem;
       background-color: hsla(0, 77%, 80%, 0.5);
       box-sizing: border-box;
+      @include phone{
+        padding: 1rem;
+      }
       img {
         width: auto;
         height: 100%;
@@ -60,7 +63,7 @@ padding: 0.4vh;
     .name-el {
       width: 100%;
       border-radius: 20px;
-      padding: 1rem 0;
+      padding: 1rem 5px;
       background-color: #f3a4a4;
     }
     .contenedor-precios {
@@ -189,6 +192,9 @@ padding: 0.4vh;
     );
   }
   @include tableth {
+
+    padding: 2vh 7rem;
+
     max-width: 980px;
     --grid-layout-gap: 16px;
     --grid-column-count: 3;
@@ -210,7 +216,11 @@ padding: 0.4vh;
     );
   }
 }
-.doble {
+.doble5,.doble {
+  width: 100%;
+  .uno{
+    margin-bottom: 1rem;
+  }
   .uno,
   .dos {
     img {
@@ -237,7 +247,7 @@ padding: 0.4vh;
 .img-grid6 {
   width: 100%;
 
-  transform: translate(0, 5%);
+  transform: translate(0, 3%);
   height: 230px !important;
   max-height: auto !important;
 }
