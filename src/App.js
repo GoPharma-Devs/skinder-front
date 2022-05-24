@@ -1,11 +1,10 @@
-import React from 'react';
+import React from 'react'
 
+import './scss/index.scss'
+import { Helmet } from 'react-helmet-async'
+import Header from './containers/Header/Header'
 
-import './scss/index.scss';
-import { Helmet } from 'react-helmet-async';
-import Header from './containers/Header/Header';
-
-function App() {
+function App () {
   return (
     <>
       <Helmet>
@@ -16,7 +15,7 @@ function App() {
         <Header/>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
