@@ -85,9 +85,10 @@ function Header() {
             </div>
             <div className='name-el'>
               <p>
-                <span>BARRA LIMPIADORA HUMECTANTE</span>
+                <span>SHAMPOO
+</span>
                 <br />
-                CREAMY MOISTURIZING
+             PRO VITAMINS
               </p>
             </div>
             <div className='contenedor-precios'>
@@ -105,17 +106,18 @@ function Header() {
             </div>
             <div className='name-el'>
               <p>
-                <span>DERMOLIMPIADOR </span>
+                <span>SHAMPOO
+ </span>
                 <br />
-                EXTRA CLEANSING
+                TAR
               </p>
             </div>
             <div className='contenedor-precios'>
               <div className='derma-price'>
-                <p>DERMA-PRICE $300</p>
+                <p>DERMA-PRICE $330</p>
               </div>
               <div className='regular-price'>
-                <p>PRECIO REGULAR $349</p>
+                <p>PRECIO REGULAR $459</p>
               </div>
             </div>
           </div>
@@ -135,10 +137,10 @@ function Header() {
               </div>
               <div className='contenedor-precios'>
                 <div className='derma-price derma-price5'>
-                  <p>DERMA-PRICE $300</p>
+                  <p>DERMA-PRICE $75</p>
                 </div>
                 <div className='regular-price regular-price5'>
-                  <p>PRECIO REGULAR $349</p>
+                  <p>PRECIO REGULAR $90</p>
                 </div>
               </div>
             </div>
@@ -149,17 +151,17 @@ function Header() {
               </div>
               <div className='name-el5 name-el'>
                 <p>
-                  <span>DERMOLIMPIADOR </span>
+                  <span>SPRAY GEL
+ </span>
                   <br />
-                  EXTRA CLEANSING
-                </p>
+                  ANTIBACTERIAL 60ML                </p>
               </div>
               <div className='contenedor-precios'>
                 <div className='derma-price derma-price5'>
-                  <p>DERMA-PRICE $300</p>
+                  <p>DERMA-PRICE $50</p>
                 </div>
                 <div className='regular-price regular-price5'>
-                  <p>PRECIO REGULAR $349</p>
+                  <p>PRECIO REGULAR $65</p>
                 </div>
               </div>
             </div>
