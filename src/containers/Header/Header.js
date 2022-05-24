@@ -31,14 +31,6 @@ EXTRA CLEANSING'
                 EXTRA CLEANSING
               </p>
             </div>
-            <div className='contenedor-precios'>
-              <div className='derma-price'>
-                <p>DERMA-PRICE $300</p>
-              </div>
-              <div className='regular-price'>
-                <p>PRECIO REGULAR $349</p>
-              </div>
-            </div>
           </div>
           <div className='header-el-col doble'>
             <div className='uno'>
@@ -58,14 +50,6 @@ DEEP CLEAN'
                   DEEP CLEAN
                 </p>
               </div>
-              <div className='contenedor-precios'>
-                <div className='derma-price'>
-                  <p>DERMA-PRICE $300</p>
-                </div>
-                <div className='regular-price'>
-                  <p>PRECIO REGULAR $349</p>
-                </div>
-              </div>
             </div>
             <div className='dos'>
               {' '}
@@ -83,14 +67,6 @@ CREAMY MOISTURIZING'
                   <br />
                   CREAMY MOISTURIZING
                 </p>
-              </div>
-              <div className='contenedor-precios'>
-                <div className='derma-price derma-price2'>
-                  <p>DERMA-PRICE $300</p>
-                </div>
-                <div className='regular-price2 regular-price'>
-                  <p>PRECIO REGULAR $349</p>
-                </div>
               </div>
             </div>
           </div>
@@ -110,14 +86,6 @@ PRO VITAMINS'
                 PRO VITAMINS
               </p>
             </div>
-            <div className='contenedor-precios'>
-              <div className='derma-price'>
-                <p>DERMA-PRICE $282</p>
-              </div>
-              <div className='regular-price'>
-                <p>PRECIO REGULAR $399</p>
-              </div>
-            </div>
           </div>
           <div className='header-el-col'>
             <div className='img'>
@@ -134,14 +102,6 @@ TAR'
                 <br />
                 TAR
               </p>
-            </div>
-            <div className='contenedor-precios'>
-              <div className='derma-price'>
-                <p>DERMA-PRICE $330</p>
-              </div>
-              <div className='regular-price'>
-                <p>PRECIO REGULAR $459</p>
-              </div>
             </div>
           </div>
 
@@ -163,14 +123,6 @@ ANTIBACTERIAL 120ML'
                   ANTIBACTERIAL 120ML{' '}
                 </p>
               </div>
-              <div className='contenedor-precios'>
-                <div className='derma-price derma-price5'>
-                  <p>DERMA-PRICE $75</p>
-                </div>
-                <div className='regular-price regular-price5'>
-                  <p>PRECIO REGULAR $90</p>
-                </div>
-              </div>
             </div>
             <div className='dos'>
               {' '}
@@ -189,19 +141,10 @@ ANTIBACTERIAL 60ML '
                   ANTIBACTERIAL 60ML{' '}
                 </p>
               </div>
-              <div className='contenedor-precios'>
-                <div className='derma-price derma-price5'>
-                  <p>DERMA-PRICE $50</p>
-                </div>
-                <div className='regular-price regular-price5'>
-                  <p>PRECIO REGULAR $65</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
         <div className='footer puff-in-center'>
-          <small>LISTADO DE PRECIOS VÁLIDOS PARA EL 2022</small>
           <h1
             style={{
               fontSize: '0.7rem',
