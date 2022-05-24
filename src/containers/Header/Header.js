@@ -12,8 +12,8 @@ import '../Header.scss';
 function Header() {
   return (
     <>
-      <header className='App-header'>
-        <div className='contenedor-header'>
+      <header className='App-header '>
+        <div className='contenedor-header puff-in-center'>
           <div className='header-el-col'>
             <img src={logo} className='logo-grid' alt='logo' />
             <div className='img'>
