@@ -165,7 +165,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className='footer'>
+        <div className='footer puff-in-center'>
           <small>LISTADO DE PRECIOS VÁLIDOS PARA EL 2022</small>
           <p
             style={{
